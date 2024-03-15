@@ -1,0 +1,1087 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Indian Institute of Technology, Patna</title>       
+        <link rel="stylesheet" href="https://www.iitp.ac.in/templates/iitpatna/css/style.css">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://www.iitp.ac.in/templates/iitpatna/css/font-awesome.css">
+        <link rel="stylesheet" href="https://www.iitp.ac.in/templates/iitpatna/css/font-awesome.min.css">   
+        <link rel="stylesheet" type="text/css" media="all" href="https://www.iitp.ac.in/templates/iitpatna/css/webslidemenu.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
+        <script src="https://www.iitp.ac.in/templates/iitpatna/js/jquery.js"></script>
+
+        <script>
+    $(document).ready(function () {
+        $(".mob-menu").click(function () {
+            $(".left-pannel .nav").toggleClass("slidemenu");
+        });
+
+        $(".tab_btn").click(function () {
+            var get_tab_id = $(this).attr("data-tab");
+            $("#" + get_tab_id).animate({height: "toggle"}, "fast");
+            $(this).toggleClass('tab_active')
+
+        });
+
+
+
+       /* $(".main-container.popupst").before("<div class='homepopup'><div class='bgoverlay'></div><div class='popupbx'><span class='closeppup'>X</span><img src='https://www.iitp.ac.in/templates/iitpatna/images/p-banner2.png' alt='image' /></div></div>");*/
+
+        $("body").on("click", ".closeppup,.bgoverlay",
+                                function(e) {
+                                    $(".bgoverlay").hide();
+                                    $(".homepopup").hide();
+         });
+    });
+
+</script>
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            var w = $(window).width();
+            if (w >= 0 && w <= 780)
+            $(".nav > li > a, .dropdown > li > a").click(function () {
+                $(this).next(".dropdown, .dropdown2").slideToggle("slow");
+            });
+			
+			$('.searchmob').click(function(e) {
+       			 $('#myForm').slideToggle();
+    		});
+			
+			
+			//	corona popup start
+                        
+			/*	$('.popupst').before('<div class="popupoverlay"></div><div class="popupbd"><span class="closebtn">X</span><a target="_blank" href="https://www.iitp.ac.in/convocation2021/"><img src="https://www.iitp.ac.in/images/invitation.jpeg" alt="pop up" title="Pop up" /></a></div>')*/
+				
+				$(".closebtn,.popupoverlay").on("click", function(){
+  					$('.popupoverlay,.popupbd').fadeOut(500);
+				});
+                                
+				
+			//	corona popup over
+			
+        });
+    </script>
+    </head>
+
+    <body>
+<!--=================test cnt=================-->
+        <div class="main-container popupst">
+
+            <div class="main-slider">
+
+                <div class="slider-hover">
+
+                    <div class="mob-menu"><strong class="fa fa-bars"></strong></div>
+
+                    <div class="left-pannel test">
+
+                        <div class="logo"><a href="https://www.iitp.ac.in/"><img src="https://www.iitp.ac.in/templates/iitpatna/images/logo.png" alt="#"></a></div>
+                        <!----- Main Menu--->
+                        		<div class="moduletable">
+						
+<ul class="nav">
+<li><a href="/index.php" >Home</a></li><li><a href="#" >The Institute <strong class="fa fa-angle-down"></strong></a><ul class="dropdown"><li><a href="/index.php/the-institute/about-us" >About Us</a></li><li><a href="/index.php/the-institute/about-iitp-logo" >About IITP Logo</a></li><li><a href="#" >Administration  <strong class="fa fa-angle-down"></strong></a><ul class="dropdown2"><li><a href="/index.php/the-institute/administration/board-of-governors" >Board of Governors</a></li><li><a href="/index.php/the-institute/administration/finance-committee" >Finance Committee</a></li><li><a href="/index.php/the-institute/administration/administrators" >Administrators</a></li><li><a href="/index.php/the-institute/administration/office-of-registrar" >Office of Registrar</a></li><li><a href="/index.php/the-institute/administration/heads-of-department" >Heads of Department</a></li><li><a href="/index.php/the-institute/administration/administrative-units" >Administrative Units</a></li><li><a href="/index.php/the-institute/administration/acts-and-statutes" >Acts and Statutes</a></li></ul></li><li><a href="/index.php/the-institute/history-of-patna" >History of Patna</a></li><li><a href="#" >Reports <strong class="fa fa-angle-down"></strong></a><ul class="dropdown2"><li><a href="/index.php/the-institute/reports/impulse" >Impulse</a></li><li><a href="/index.php/the-institute/reports/convocation" >Convocation</a></li><li><a href="/index.php/the-institute/reports/annual-reports" >Annual Reports</a></li></ul></li><li><a href="/index.php/the-institute/other-institute-functionary" >Other Institute functionary</a></li><li><a href="/index.php/the-institute/recruitment-rules-and-promotion-policy" >Recruitment Rules and Promotion policy </a></li><li><a href="http://www.iitp.ac.in/alumni/" target="_blank" rel="noopener noreferrer">Alumni &amp; Endowment</a></li><li><a href="/index.php/the-institute/former-directors" >Former Directors</a></li><li><a href="#" >MOUs <strong class="fa fa-angle-down"></strong></a><ul class="dropdown2"><li><a href="/index.php/the-institute/mous/current-mous" >Current MOUs</a></li><li><a href="/index.php/the-institute/mous/past-mous" >Past MOUs</a></li></ul></li><li><a href="/index.php/the-institute/institute-song" >Institute Song</a></li></ul></li><li><a href="https://academics.iitp.ac.in/" target="_blank" rel="noopener noreferrer">Academics</a></li><li><a href="#" >Departments  <strong class="fa fa-angle-down"></strong></a><ul class="dropdown"><li><a href="#" >Engineering &amp; Technology <strong class="fa fa-angle-down"></strong></a><ul class="dropdown2"><li><a href="/index.php/departments/engineering-technology/computer-science-and-engineering" >Computer Science and Engineering</a></li><li><a href="/index.php/departments/engineering-technology/electrical-engineering" >Electrical Engineering</a></li><li><a href="/index.php/departments/engineering-technology/mechanical-engineering" >Mechanical Engineering</a></li><li><a href="/index.php/departments/engineering-technology/civil-and-environmental-engineering" >Civil and Environmental Engineering</a></li><li><a href="/index.php/departments/engineering-technology/chemical-and-biochemical-engineering" >Chemical and Biochemical Engineering</a></li><li><a href="/index.php/departments/engineering-technology/metallurgical-and-materials-engineering" >Metallurgical and Materials Engineering</a></li></ul></li><li><a href="#" >Basic Sciences <strong class="fa fa-angle-down"></strong></a><ul class="dropdown2"><li><a href="/index.php/departments/basic-sciences/chemistry" >Chemistry</a></li><li><a href="/index.php/departments/basic-sciences/mathematics" >Mathematics</a></li><li><a href="/index.php/departments/basic-sciences/physics" >Physics</a></li></ul></li><li><a href="/index.php/departments/humanities-and-social-sciences" >Humanities and  Social Sciences</a><ul class="dropdown2"><li><a href="/index.php/departments/humanities-and-social-sciences/facilities" >Facilities</a></li><li><a href="/index.php/departments/humanities-and-social-sciences/awards-honours" >Awards &amp; Honours</a></li><li><a href="#" >Events</a></li><li><a href="/index.php/departments/humanities-and-social-sciences/directory" >Directory</a></li></ul></li><li><a href="/index.php/departments/computer-center" >Computer Center</a></li><li><a href="/index.php/departments/centre-for-endangered-language-studies" >Center for Endangered Language Studies</a></li><li><a href="/index.php/departments/ceer" >Centre for Earthquake Engineering Research</a></li></ul></li><li><a href="#" >Research <strong class="fa fa-angle-down"></strong></a><ul class="dropdown"><li><a href="/index.php/research/r-d-home" >R&amp;D Home</a></li><li><a href="/index.php/research/patent-ipr" >Patent &amp; IPR</a></li><li><a href="/index.php/research/people" >People</a></li><li><a href="/index.php/research/research-projects-and-resources" >Research projects and resources</a></li><li><a href="#" >Research Scholars' Day <strong class="fa fa-angle-down"></strong></a><ul class="dropdown2"><li><a href="https://www.iitp.ac.in/rsd/" >RSD-2022</a></li><li><a href="https://www.iitp.ac.in/rsd/rsd21/" >RSD-2021</a></li><li><a href="https://www.iitp.ac.in/rsd/rsd20/" >RSD-2020</a></li><li><a href="https://www.iitp.ac.in/rsd/rsd19/" >RSD-2019</a></li></ul></li><li><a href="/index.php/research/rules-and-regulations" >Rules and Regulations</a></li><li><a href="/index.php/research/latest-news-updates" >Latest News/Updates</a></li><li><a href="/index.php/research/iitp-latest-thesis-submitted" >Latest Thesis Submitted</a></li><li><a href="#" >Monthly eNewsletter (R&amp;D)</a></li></ul></li><li><a href="#" >Services &amp; Amenities <strong class="fa fa-angle-down"></strong></a><ul class="dropdown"><li><a href="https://library.iitp.ac.in/" target="_blank" rel="noopener noreferrer">Central Library</a></li><li><a href="/index.php/services-amenities/stores-and-purchase" >Stores and Purchase</a><ul class="dropdown2"><li><a href="/index.php/services-amenities/stores-and-purchase/niqs" >NIQs</a></li><li><a href="/index.php/services-amenities/stores-and-purchase/tenders" >Tenders</a></li><li><a href="/index.php/services-amenities/stores-and-purchase/archived-niqs" >Archived NIQs</a></li><li><a href="/index.php/services-amenities/stores-and-purchase/archived-tenders" >Archived Tenders</a></li></ul></li><li><a href="https://www.iitp.ac.in/sports/" >Sports Cell</a></li><li><a href="/index.php/services-amenities/hindi-cell" >Hindi Cell</a></li><li><a href="/index.php/services-amenities/jee-cell" >JEE Cell</a></li><li><a href="/index.php/services-amenities/guest-houses" >Guest Houses</a></li><li><a href="https://sites.google.com/view/health-center-iit-patna/home" target="_blank" rel="noopener noreferrer">Medical Unit</a></li><li><a href="https://iwd.iitp.ac.in/" >Institute Works Department</a></li><li><a href="/index.php/services-amenities/uba-cell" >UBA Cell</a></li><li><a href="/index.php/services-amenities/wellness-center" >Wellness Center</a></li><li><a href="#" >Accounts and Audit <strong class="fa fa-angle-down"></strong></a><ul class="dropdown2"><li><a href="/index.php/services-amenities/accounts-and-audit/vat-certificate" >VAT Certificate</a></li></ul></li><li><a href="https://www.iitp.ac.in/saifiitp/" target="_blank" rel="noopener noreferrer">SAIF</a></li><li><a href="/index.php/services-amenities/national-knowledge-network" >National Knowledge Network</a><ul class="dropdown2"><li><a href="/index.php/services-amenities/national-knowledge-network/people" >People</a></li></ul></li></ul></li><li><a href="#" >Students <strong class="fa fa-angle-down"></strong></a><ul class="dropdown"><li><a href="https://www.iitp.ac.in/placement/" >Training and Placement Cell</a></li><li><a href="/gymkhana/" target="_blank" rel="noopener noreferrer">Students' Gymkhana</a></li><li><a href="/hosca/" target="_blank" rel="noopener noreferrer">Sports and Cultural Events</a></li><li><a href="http://www.eclubiitp.org/" target="_blank" rel="noopener noreferrer">Entrepreneurship</a></li><li><a href="http://ieeesbiitp.github.io" target="_blank" rel="noopener noreferrer">IEEE Student Branch</a></li><li><a href="https://ieeentc.github.io/" >IEEE NTC Student chapter</a></li><li><a href="/hostel/" target="_blank" rel="noopener noreferrer">Hostels</a></li><li><a href="/index.php/students/student-activity-center" >Student Activity Center</a></li><li><a href="https://nss.iitp.ac.in/" target="_blank" rel="noopener noreferrer">National Service Scheme (NSS)</a></li><li><a href="/rtdc/" target="_blank" rel="noopener noreferrer">Rural Technology Development Club(RTDC)</a></li><li><a href="/index.php/students/merit-cum-means-mcm-scholarship" >Merit-Cum-Means (MCM) Scholarship</a></li></ul></li><li><a href="https://iciitp.com/" target="_blank" rel="noopener noreferrer">Incubation Center</a></li><li><a href="https://fistiitp.com" >TBI</a></li><li><a href="https://www.tih-iitp.com/" target="_blank" rel="noopener noreferrer">TIH</a></li><li><a href="https://www.iitp.ac.in/qip" target="_blank" rel="noopener noreferrer">QIP</a></li><li><a href="https://www.iitp.ac.in/cep" target="_blank" rel="noopener noreferrer">CEP</a></li><li><a href="https://coe.iitp.ac.in" >COE</a></li><li><a href="/index.php/contact" >Contact</a></li></ul>
+		</div>
+	                         <!--  
+<ul class="{{mclass}}">
+<li><a href="/index.php" >Home</a></li><li><a href="#" >The Institute <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass1}}"><li><a href="/index.php/the-institute/about-us" >About Us</a></li><li><a href="/index.php/the-institute/about-iitp-logo" >About IITP Logo</a></li><li><a href="#" >Administration  <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass2}}"><li><a href="/index.php/the-institute/administration/board-of-governors" >Board of Governors</a></li><li><a href="/index.php/the-institute/administration/finance-committee" >Finance Committee</a></li><li><a href="/index.php/the-institute/administration/administrators" >Administrators</a></li><li><a href="/index.php/the-institute/administration/office-of-registrar" >Office of Registrar</a></li><li><a href="/index.php/the-institute/administration/heads-of-department" >Heads of Department</a></li><li><a href="/index.php/the-institute/administration/administrative-units" >Administrative Units</a></li><li><a href="/index.php/the-institute/administration/acts-and-statutes" >Acts and Statutes</a></li></ul></li><li><a href="/index.php/the-institute/history-of-patna" >History of Patna</a></li><li><a href="#" >Reports <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass2}}"><li><a href="/index.php/the-institute/reports/impulse" >Impulse</a></li><li><a href="/index.php/the-institute/reports/convocation" >Convocation</a></li><li><a href="/index.php/the-institute/reports/annual-reports" >Annual Reports</a></li></ul></li><li><a href="/index.php/the-institute/other-institute-functionary" >Other Institute functionary</a></li><li><a href="/index.php/the-institute/recruitment-rules-and-promotion-policy" >Recruitment Rules and Promotion policy </a></li><li><a href="http://www.iitp.ac.in/alumni/" target="_blank" rel="noopener noreferrer">Alumni &amp; Endowment</a></li><li><a href="/index.php/the-institute/former-directors" >Former Directors</a></li><li><a href="#" >MOUs <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass2}}"><li><a href="/index.php/the-institute/mous/current-mous" >Current MOUs</a></li><li><a href="/index.php/the-institute/mous/past-mous" >Past MOUs</a></li></ul></li><li><a href="/index.php/the-institute/institute-song" >Institute Song</a></li></ul></li><li><a href="https://academics.iitp.ac.in/" target="_blank" rel="noopener noreferrer">Academics</a></li><li><a href="#" >Departments  <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass1}}"><li><a href="#" >Engineering &amp; Technology <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass2}}"><li><a href="/index.php/departments/engineering-technology/computer-science-and-engineering" >Computer Science and Engineering</a></li><li><a href="/index.php/departments/engineering-technology/electrical-engineering" >Electrical Engineering</a></li><li><a href="/index.php/departments/engineering-technology/mechanical-engineering" >Mechanical Engineering</a></li><li><a href="/index.php/departments/engineering-technology/civil-and-environmental-engineering" >Civil and Environmental Engineering</a></li><li><a href="/index.php/departments/engineering-technology/chemical-and-biochemical-engineering" >Chemical and Biochemical Engineering</a></li><li><a href="/index.php/departments/engineering-technology/metallurgical-and-materials-engineering" >Metallurgical and Materials Engineering</a></li></ul></li><li><a href="#" >Basic Sciences <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass2}}"><li><a href="/index.php/departments/basic-sciences/chemistry" >Chemistry</a></li><li><a href="/index.php/departments/basic-sciences/mathematics" >Mathematics</a></li><li><a href="/index.php/departments/basic-sciences/physics" >Physics</a></li></ul></li><li><a href="/index.php/departments/humanities-and-social-sciences" >Humanities and  Social Sciences</a><ul class="{{sclass2}}"><li><a href="/index.php/departments/humanities-and-social-sciences/facilities" >Facilities</a></li><li><a href="/index.php/departments/humanities-and-social-sciences/awards-honours" >Awards &amp; Honours</a></li><li><a href="#" >Events</a></li><li><a href="/index.php/departments/humanities-and-social-sciences/directory" >Directory</a></li></ul></li><li><a href="/index.php/departments/computer-center" >Computer Center</a></li><li><a href="/index.php/departments/centre-for-endangered-language-studies" >Center for Endangered Language Studies</a></li><li><a href="/index.php/departments/ceer" >Centre for Earthquake Engineering Research</a></li></ul></li><li><a href="#" >Research <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass1}}"><li><a href="/index.php/research/r-d-home" >R&amp;D Home</a></li><li><a href="/index.php/research/patent-ipr" >Patent &amp; IPR</a></li><li><a href="/index.php/research/people" >People</a></li><li><a href="/index.php/research/research-projects-and-resources" >Research projects and resources</a></li><li><a href="#" >Research Scholars' Day <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass2}}"><li><a href="https://www.iitp.ac.in/rsd/" >RSD-2022</a></li><li><a href="https://www.iitp.ac.in/rsd/rsd21/" >RSD-2021</a></li><li><a href="https://www.iitp.ac.in/rsd/rsd20/" >RSD-2020</a></li><li><a href="https://www.iitp.ac.in/rsd/rsd19/" >RSD-2019</a></li></ul></li><li><a href="/index.php/research/rules-and-regulations" >Rules and Regulations</a></li><li><a href="/index.php/research/latest-news-updates" >Latest News/Updates</a></li><li><a href="/index.php/research/iitp-latest-thesis-submitted" >Latest Thesis Submitted</a></li><li><a href="#" >Monthly eNewsletter (R&amp;D)</a></li></ul></li><li><a href="#" >Services &amp; Amenities <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass1}}"><li><a href="https://library.iitp.ac.in/" target="_blank" rel="noopener noreferrer">Central Library</a></li><li><a href="/index.php/services-amenities/stores-and-purchase" >Stores and Purchase</a><ul class="{{sclass2}}"><li><a href="/index.php/services-amenities/stores-and-purchase/niqs" >NIQs</a></li><li><a href="/index.php/services-amenities/stores-and-purchase/tenders" >Tenders</a></li><li><a href="/index.php/services-amenities/stores-and-purchase/archived-niqs" >Archived NIQs</a></li><li><a href="/index.php/services-amenities/stores-and-purchase/archived-tenders" >Archived Tenders</a></li></ul></li><li><a href="https://www.iitp.ac.in/sports/" >Sports Cell</a></li><li><a href="/index.php/services-amenities/hindi-cell" >Hindi Cell</a></li><li><a href="/index.php/services-amenities/jee-cell" >JEE Cell</a></li><li><a href="/index.php/services-amenities/guest-houses" >Guest Houses</a></li><li><a href="https://sites.google.com/view/health-center-iit-patna/home" target="_blank" rel="noopener noreferrer">Medical Unit</a></li><li><a href="https://iwd.iitp.ac.in/" >Institute Works Department</a></li><li><a href="/index.php/services-amenities/uba-cell" >UBA Cell</a></li><li><a href="/index.php/services-amenities/wellness-center" >Wellness Center</a></li><li><a href="#" >Accounts and Audit <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass2}}"><li><a href="/index.php/services-amenities/accounts-and-audit/vat-certificate" >VAT Certificate</a></li></ul></li><li><a href="https://www.iitp.ac.in/saifiitp/" target="_blank" rel="noopener noreferrer">SAIF</a></li><li><a href="/index.php/services-amenities/national-knowledge-network" >National Knowledge Network</a><ul class="{{sclass2}}"><li><a href="/index.php/services-amenities/national-knowledge-network/people" >People</a></li></ul></li></ul></li><li><a href="#" >Students <strong class="fa fa-angle-down"></strong></a><ul class="{{sclass1}}"><li><a href="https://www.iitp.ac.in/placement/" >Training and Placement Cell</a></li><li><a href="/gymkhana/" target="_blank" rel="noopener noreferrer">Students' Gymkhana</a></li><li><a href="/hosca/" target="_blank" rel="noopener noreferrer">Sports and Cultural Events</a></li><li><a href="http://www.eclubiitp.org/" target="_blank" rel="noopener noreferrer">Entrepreneurship</a></li><li><a href="http://ieeesbiitp.github.io" target="_blank" rel="noopener noreferrer">IEEE Student Branch</a></li><li><a href="https://ieeentc.github.io/" >IEEE NTC Student chapter</a></li><li><a href="/hostel/" target="_blank" rel="noopener noreferrer">Hostels</a></li><li><a href="/index.php/students/student-activity-center" >Student Activity Center</a></li><li><a href="https://nss.iitp.ac.in/" target="_blank" rel="noopener noreferrer">National Service Scheme (NSS)</a></li><li><a href="/rtdc/" target="_blank" rel="noopener noreferrer">Rural Technology Development Club(RTDC)</a></li><li><a href="/index.php/students/merit-cum-means-mcm-scholarship" >Merit-Cum-Means (MCM) Scholarship</a></li></ul></li><li><a href="https://iciitp.com/" target="_blank" rel="noopener noreferrer">Incubation Center</a></li><li><a href="https://fistiitp.com" >TBI</a></li><li><a href="https://www.tih-iitp.com/" target="_blank" rel="noopener noreferrer">TIH</a></li><li><a href="https://www.iitp.ac.in/qip" target="_blank" rel="noopener noreferrer">QIP</a></li><li><a href="https://www.iitp.ac.in/cep" target="_blank" rel="noopener noreferrer">CEP</a></li><li><a href="https://coe.iitp.ac.in" >COE</a></li><li><a href="/index.php/contact" >Contact</a></li></ul>
+ -->
+                        <!----- Main Menu End --->
+
+                        <div class="massagebox"><a href="/index.php/2-uncategorised/960-director-s-message"><img src="https://www.iitp.ac.in/templates/iitpatna/images/massage-banner_13-09-2021.png" alt="#"></a></div>
+
+                    </div>
+
+                    <div class="topheader">
+
+                        <ul class="top-form">
+
+                            <li><span class="searchmob"></span>
+							<form action="/index.php" method="post" class="form-inline" role="search" id="myForm">
+		<label for="mod-search-searchword" class="element-invisible"></label> <input name="searchword" id="mod-search-searchword" maxlength=""  class="inputbox search-query input-medium" type="text" placeholder="Search" />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="" />
+		<strong class="fa fa-search" onClick="javascript:document.getElementById('myForm').submit();"></strong>
+	</form>
+							<!--<input type="text" placeholder="Search">
+							<strong class="fa fa-search"></strong>-->
+							</li>
+
+                        </ul>
+						
+						
+
+                        <ul class="toprpannel">
+
+                            <li><strong>Color</strong>
+
+                                <span class="redcolor">&nbsp;</span>
+
+                                <span class="navibluecolor">&nbsp;</span>
+
+                                <span class="yellowcolor">&nbsp;</span>
+
+                                <span class="defaultcolor">&nbsp;</span>
+
+                            </li>
+
+                            <li><a href="#" onClick="changeFontSize(-2); return false"><img src="/images/a-minus.png" alt="#"></a></li>
+                            <li><a href="#" onClick="revertStyles(); return false"> <img src="/images/a.png" alt="#"></a> </li>
+                            <li><a href="#" onClick="changeFontSize(2); return false"><img src="/images/a-plus.png" alt="#"></a></li>
+
+                            <li><div class="mod-languages">
+
+	<ul class="lang-inline">
+						<li class="lang-active" dir="ltr">
+			<a href="/">
+							<img src="/media/mod_languages/images/en_us.gif" alt="English (United States)" title="English (United States)" />						</a>
+			</li>
+				</ul>
+
+</div>
+</li>
+ 
+
+                        </ul>
+                    </div>
+
+                    <div class="slider-rbox">
+                        <div class="noticeboard">
+                            <h2>Notice Board</h2>
+                            
+
+<div class="custom"  >
+	<div class="container blur">
+<ul class="slider">
+<li><a href="/images/pdf/NLP%20Workshop%202024%20Brochure_TIH%20IIT%20Patna.pdf" target="_blank">First Workshop on Foundational NLP: Insight into Text Processing in Online Mode of Workshop Series on Advanced Workshop on Natural Language Processing (NLP) with AI/ML on April 16-18, 2024<img src="/images/new.gif" alt="" /></a></li>
+<li><a href="/index.php/2-uncategorised/1702-advertisement-no-r-d-908-mem-351-dated-14-03-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/908/MEM/351 DATED: 14.03.2024 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1699-the-semi-conductor-conference-to-be-organized-on-13-03-2024-at-09-30-am-wednesday" target="_blank">The Semi-conductor conference to be organized on 13.03.2024 at 09.30 AM (Wednesday)</a></li>
+<li><a href="/index.php/2-uncategorised/1701-advertisement-no-r-d-986-dls-350-dated-12-03-2024-for-jrf" target="_blank">ADVERTISEMENT NO:R&amp;D/986/DLS/350 DATED: 12.03.2024 for the post of JRF</a></li>
+<li><a href="https://academics.iitp.ac.in/" target="_blank" rel="noopener">PhD Admission Re-Advertisement under Visvesvaraya Scheme</a></li>
+<li><a href="/index.php/2-uncategorised/1698-advertisement-no-r-d-711-serb-349-dated-06-03-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/711/SERB/349 DATED: 06/03/2024 for JRF</a></li>
+<li><a href="/images/pdf/Flyer_highend.pdf" target="_blank">SERB-Funded High-End Workshop on Machine Learning and Deep Learning Algorithms for Human Disease Diagnosis and Classification with Hands-on at Electrical Engineering Department, IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1696-advertisement-no-r-d-934-sti-348-dated-28-02-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/934/STI/348 DATED:28.02.2024 for JRF</a></li>
+<li><a href="https://iciitp.com/index.php/career/" target="_blank" rel="noopener">Incubation Centre IIT Patna invites applications for the position of Sr. Executive</a></li>
+<li><a href="/index.php/2-uncategorised/1694-advertisement-no-r-d-992-egg-347-dated-21-02-2024-for-research-assistant" target="_blank">ADVERTISEMENT NO: R&amp;D/992/EGG/347 DATED: 21/02/2024 for Research Assistant</a></li>
+<li><a href="/index.php/2-uncategorised/1693-advertisement-no-r-d-998-shg-346-dated-20-02-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/998/SHG/346 DATED: 20.02.2024 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1692-advertisement-no-r-d-719-ipan-345-dated-20-02-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/719/IPAN/345 DATED: 20.02.2024 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1691-advertisement-no-r-d-997-cla-344-dated-19-02-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/997/CLA/344 DATED: 19.02.2024 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1690-advertisement-no-r-d-865-ise-343-dated-13-02-2024-for-research-associate" target="_blank">ADVERTISEMENT NO: R&amp;D/865/ISE/343 DATED:13.02.2024 for Research Associate</a></li>
+<li><a href="/images/adv/phd/PHD%20adv%20Jan%202024%20under%20Vis%2012.02.2024.pdf" target="_blank">PhD Admission Re-Advertisement under Visvesvaraya Scheme</a></li>
+<li><a href="/index.php/2-uncategorised/1689-advertisement-no-r-d-817-ulj-342-dated-09-02-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/817/ULJ/342 DATED:09.02.2024 for JRF</a></li>
+<li><a href="/images/pdf/brochure-final%202.pdf" target="_blank">Symposium on International Women in Mathematics Day on February 24, 2024. Last date for registration has been extended to February 20, 2024</a></li>
+<li><a href="/images/pdf/Advt+Format-of-Business-Plan_FIST%2011th%20Batch%20(1).pdf" target="_blank">Call for Business Plan for the 11th Batch of Startups, FIST-TBI, IIT Patna, Date Extended till 21st February 2024</a></li>
+<li><a href="/index.php/2-uncategorised/1687-advertisement-no-r-d-719-ipan-341-dated-31-01-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/719/IPAN/341 DATED: 31.01.2024 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1686-advertisement-no-r-d-827-ahs-340-dated-29-01-2024-for-research-assistantt" target="_blank">ADVERTISEMENT NO: R&amp;D/827/AHS/340  DATED: 29/01/2024 for Research Assistantt</a></li>
+<li><a href="/index.php/2-uncategorised/1685-advertisement-no-r-d-826-cea-339-dated-29-01-2024-for-research-assistantt" target="_blank">ADVERTISEMENT NO: R&amp;D/826/CEA/339 DATED: 29/01/2024 for Research Assistantt</a></li>
+<li><a href="https://iciitp.com/index.php/career/" target="_blank" rel="noopener">Advt. Ref. No. : ICIITP/Rect/2023/01 Dt.01.06.2023:- Selected Candidates for the position of Jr/ Executive level at Incubation Centre IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1682-advertisement-no-r-d-940-lmg-337-dated-19-01-2024-for-phd-position-funded-through-project" target="_blank">ADVERTISEMENT NO: R&amp;D/940/LMG/337 DATED: 19.01.2024 for PhD position funded through project</a></li>
+<li><a href="/index.php/2-uncategorised/1681-advertisement-no-r-d-969-dpi-338-dated-18-01-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/969/DPI/338 DATED: 18/01/2024 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1678-teacher-s-training-program" target="_blank">Teacher's Training Program</a></li>
+<li><a href="/images/pdf/Brochure%20Template_asgivenV2_EDITED.pdf" target="_blank">SAR Interferometry (InSAR) for Disaster Management. Last Date of Registration: 24-Jan-2024<img src="/images/new.gif" alt="" /></a></li>
+<li><a href="/images/pdf/E-CELL,IIT%20PATNA%20(5).png" target="_blank">Guest Talk on "Beyond Boundaries - Unveiling Entrepreneurship" by Mr. Sushant Kumar (Founder of Eskeyn Venture, Alumni of IIT Delhi, IIM Bangalore and Harvard University)</a></li>
+<li><a href="https://rtcst2024.wixsite.com/rtcst-2024" target="_blank" rel="noopener">National Conference: Recent Trends in Chemical Science and Technology (RTCST) 2024</a></li>
+<li><a href="https://iciitp.com/index.php/career/" target="_blank" rel="noopener">Ref: ICIITP/Rect/2023/01 Dt.01.06.2023:- Shortlisted Candidates for the position of Jr/ Executive level at Incubation Centre IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1675-advertisement-no-r-d-762-csi-335-dated-05-01-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/762/CSI/335 DATED: 05.01.2024 for JRF</a></li>
+<li><a href="/images/pdf/Advt+Format-of-Business-Plan_FIST%2011th%20Batch.pdf" target="_blank">Call for Business Plan for the 11th Batch of Startups, FIST-TBI, IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1674-advertisement-no-r-d-956-hfa-334-dated-03-01-2024-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/956/HFA/334 DATED: 03.01 2024 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1673-advertisement-no-r-d-785-ret-332-dated-01-01-2024-for-research-associate" target="_blank">ADVERTISEMENT NO: R&amp;D/785/RET/332 DATED: 01.01.2024 for RESEARCH ASSOCIATE</a></li>
+<li><a href="/index.php/2-uncategorised/1672-advertisement-no-r-d-820pmd-331-dated-29-12-2023-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/820PMD/331, DATED: 29.12.2023 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1669-advertisement-no-r-d-557-serb-330-dated-27-12-2023-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/557/SERB/330 DATED:27.12.2023 for JRF</a></li>
+<li><a href="/images/pdf/Agritech%201.0%202023_2.pdf" target="_blank">Event postponed - "1st National Conference on Agricultural Technology"</a></li>
+<li><a href="https://academics.iitp.ac.in/index.php?option=com_content&amp;view=article&amp;id=85&amp;Itemid=101" target="_blank" rel="noopener">selected candidates of PhD programme Jan 2024</a></li>
+<li><a href="/index.php/2-uncategorised/1665-advertisement-no-r-d-951-mic-329-dated-22-12-2023-for-jrf" target="_blank">ADVERTISEMENT NO:R&amp;D/951/MIC/329 DATED:22.12.2023 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1664-advertisement-no-r-d-908-mem-328-dated-19-12-2023-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/908/MEM/328 DATED: 19.12.2023 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1660-advertisement-no-r-d-941-toa-327-dated-18-12-2023-for-jrf-pdf" target="_blank">ADVERTISEMENT NO: R&amp;D/941/TOA/327, DATED: 18.12.2023 for JRF, PDF</a></li>
+<li><a href="/index.php/2-uncategorised/1659-advertisement-no-r-d-867-daf-326-dated-18-12-2023-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/867/DAF/326, DATED: 18.12.2023 for JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1661-advertisement-no-r-d-606-serb-328-dated-18-12-2023-for-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/606/SERB/328 DATED: 18.12.2023 for JRF</a></li>
+<li><a href="/images/pdf/Advertisement%20no.%20TIH23-2403,%20Dated%2015.12.2023%20for%20the%20post%20of%20JRF%20(2%20nos.).pdf" target="_blank">Advertisement no. TIH/23-24/03, Dated 15.12.2023 for the post of JRF (2 nos.)</a></li>
+<li><a href="/index.php/2-uncategorised/1656-advertisement-no-r-d-906-bsd-325-dated-15-12-2023-for-jrf-pa" target="_blank">ADVERTISEMENT NO: R&amp;D/906/BSD/325, DATED: 15.12.2023 for JRF, PA</a></li>
+<li><a href="/images/pdf/Walk-In-Interview%20-%20TIH%20IIT%20Patna.pdf" target="_blank">Walk-In-Interview - TIH IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1654-advertisement-no-r-d-820pmd-324-dated-14-12-2023-for-ph-d-position-funded-through-project" target="_blank">ADVERTISEMENT NO: R&amp;D/820PMD/324, DATED: 14.12.2023 for Ph.D position funded through project</a></li>
+<li><a href="/index.php/2-uncategorised/1650-advertisement-no-r-d-679-bepc-323-dated-12-12-2023-for-the-post-of-project-associate" target="_blank">ADVERTISEMENT NO:R&amp;D/679/BEPC/323, DATED: 12.12.2023 for the post of Project Associate</a></li>
+<li><a href="/images/pdf/SPARC%20CFP%20IIT%20Patna.pdf" target="_blank">Call for Papers for International Conference (Hybrid Mode)- "Navigating Sustainable Futures: Literary Reflections on Precarious Lives and the Anthropocene"</a></li>
+<li><a href="/index.php/2-uncategorised/1649-advertisement-no-r-d-692-690-605-556-cse-322-dated-08-12-2023-for-various-posts" target="_blank">ADVERTISEMENT NO: R&amp;D/692/690/605/556/CSE/322, DATED: 08.12.2023 for various posts</a></li>
+<li><a href="https://academics.iitp.ac.in/index.php?option=com_content&amp;view=article&amp;id=85&amp;Itemid=101" target="_blank" rel="noopener">SHORTLISTED CANDIDATES FOR PhD EXAMINATION / INTERVIEW DEPARTMENT WISE <img src="/images/new.gif" alt="" /></a></li>
+<li><a href="/index.php/2-uncategorised/1645-advertisement-no-advertisement-no-r-d-940-lmg-321-dated-30-11-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/940/LMG/321 DATED: 30.11.2023 for the post of JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1644-advertisement-no-r-d-910-see-320-dated-30-11-2023-for-the-post-of-research-associate" target="_blank">ADVERTISEMENT NO: R&amp;D/910/SEE/320 DATED: 30/11/2023 for the post of Research Associate</a></li>
+<li><a href="/index.php/2-uncategorised/1642-advertisement-no-r-d-772-dih-319-dated-24-11-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/772/DIH/319 dated:24/11/2023 for the post of JRF</a></li>
+<li><a href="/images/pdf/SSR_Workshop.pdf" target="_blank">SERB-Sponsored Two-Day Hybrid (Both online and offline mode) Workshop On Recent Advances in Emitter Identification for UAV/Drone Applications</a></li>
+<li><a href="/images/pdf/TENTATIVE%20PhD%20ADMISSION%20EXAMINATION%20-%20INTERVIEW%20SCHEDULED%20DATES.pdf" target="_blank">TENTATIVE PhD ADMISSION EXAMINATION / INTERVIEW SCHEDULED DATES</a></li>
+<li><a href="/images/pdf/Yoga%20Teacher%20Advertisement(2).pdf" target="_blank">Advertisement for the post of Yoga Teacher</a></li>
+<li><a href="/index.php/2-uncategorised/1640-advertisement-no-r-d-928-rae-318-dated-17-11-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/ 928/RAE/318 DATED: 17/11/2023 for the post of JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1639-advertisement-no-r-d-902-agd-317-dated-21-11-2023-for-the-post-of-research-assistant" target="_blank">ADVERTISEMENT NO: R&amp;D/902/AGD/317 DATED- 21/11/2023 for the post of Research Assistant</a></li>
+<li><a href="/images/pdf/Course%20Brochure%20DL%20for%20DH_18-11-2023.pdf" target="_blank">Deep Learning for Digital Health: Technology and Business</a></li>
+<li><a href="/images/pdf/Agritech%201.0%202023.pdf" target="_blank">FIST-TBI is organising 1st National Conference on Agri-Tech on 27th Dec. 2023</a></li>
+<li><a href="/images/tih_adv/Advertisement_TIH-23-24-02_TIHIITPatna.pdf">Recruitment Notice TIH IIT Patna - CTO and Assistant Administrator</a></li>
+<li><a href="/images/pdf/Cyfuture%20India%20Pvt.%20Ltd.pdf" target="_blank">Debarment order of M/s Cyfuture India Pvt. Ltd.</a></li>
+<li><a href="/index.php/2-uncategorised/1629-advertisement-no-r-d-868-bcp-316-dated-31-10-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/868/BCP/316, DATED:31/10/2023 for the post of JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1628-advertisement-no-r-d-872-dma-315-dated-27-10-2023-for-the-post-of-research-associate" target="_blank">ADVERTISEMENT NO: R&amp;D/872/DMA/315 DATED- 27.10.2023 for the post of Research Associate</a></li>
+<li><a href="/images/adv/phd/final_adv_26_10_2023.pdf" target="_blank">Ph.D. Admission – (Spring Semester, AY-2023-24)</a></li>
+<!--li><a href="/index.php?id=1627" target="_blank">Recruitment notice for non-teaching staff (Advt. No.: IITP/RECT/NT/01/2023/)</a></li-->
+<li><a href="/images/adv/phd/PHD adv Jan 2024 under Vis 20.10.2023.pdf" target="_blank">Visvesvaraya PhD Admission – (Spring Semester, AY-2023-24)</a></li>
+<li><a href="/images/pdf/Hiring%20of%20Part%20Time%20Asst.Coaches%20for%20inter%20iit.pdf" target="_blank">Hiring of Part-time Assistant. Coaches for Chess, Athletics, Volleyball, Basketball, Squash, and Table Tennis for 02 months</a></li>
+<li><a href="/index.php/2-uncategorised/1624-advertisement-no-r-d-897-ipr-313-dated-18-10-2023-advertisement-no-r-d-897-ipr-314-dated-18-10-2023-for-the-post-of-research-assistant-research-scholar" target="_blank">ADVERTISEMENT NO: R&amp;D/897/IPR/313, DATED: 18.10.2023 &amp; ADVERTISEMENT NO: R&amp;D/897/IPR/314, DATED: 18.10.2023 for the post of Research Assistant &amp; Research Scholar</a></li>
+<li><a href="/index.php/2-uncategorised/1623-advertisement-no-r-d-894-pre-312-dated-18-10-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO:R&amp;D/894/PRE/312 DATED: 18.10.2023 for the post of JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1622-advertisement-no-r-d-910-see-311-dated-16-10-2023-for-the-post-of-field-investigator" target="_blank">ADVERTISEMENT NO:R&amp;D/910/SEE/311 DATED: 16/10/2023 for the post of Field Investigator</a></li>
+<li><a href="/index.php/2-uncategorised/1621-advertisement-no-r-d-766-cct-310-dated-16-10-2023-for-the-post-of-senior-research-fellow-srf" target="_blank">ADVERTISEMENT NO:R&amp;D/766/CCT/310 DATED: 16.10.2023 for the post of Senior Research Fellow (SRF)</a></li>
+<li><a href="/index.php?layout=edit&amp;id=1620" target="_blank">ADVERTISEMENT NO: R&amp;D/906/CSE/309, DATED: 13.10.2023 for the post of Junior Research Fellow (JRF) &amp; Project Assistant (PA)</a></li>
+<li><a href="/index.php/2-uncategorised/1618-advertisement-no-r-d-895-ses-308-dated-06-10-2023-for-the-post-of-research-associate-research-assistant-field-investigator" target="_blank">ADVERTISEMENT NO: R&amp;D/895/SES/308, DATED: 06.10.2023 for the post of Research Associate, Research Assistant &amp; Field Investigator</a></li>
+<li><a href="/images/pdf/Sandesh.pdf" target="_blank">Director's message on Hindi Diwas</a></li>
+<li><a href="/index.php/2-uncategorised/1617-advertisement-no-r-d-557-serb-307-dated-26-09-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/ 557/SERB/307 DATED: 26.09.2023 for the post of JRF</a></li>
+<li><a href="/images/pdf/Entreprenureship%20program.pptx" target="_blank">Workshop on Entrepreneurship Skill Developmen (Date: 22 November-03 December, 2023)</a></li>
+<li><a href="/index.php/2-uncategorised/1614-advertisement-r-d-881-rqc-306-dated-21-09-2023-for-the-post-of-research-associate" target="_blank">ADVERTISEMENT R&amp;D/881/RQC/306 DATED: 21.09.2023 for the post of Research Associate</a></li>
+<li><a href="/index.php/2-uncategorised/1611-advertisement-for-the-post-of-jrf-project-no-tih-ee-asp-007" target="_blank">ADVERTISEMENT for the post of JRF (Project No. : TIH/EE/ASP/007)</a></li>
+<li><a href="/index.php/2-uncategorised/1613-6-month-diploma-in-insurance-and-risk-management-jointly-offered-by-iit-patna-iirm" target="_blank">A 6-month Diploma in Insurance and Risk Management (Jointly offered by IIT Patna &amp; IIRM) </a></li>
+<li><a href="https://iciitp.com/index.php/career/" target="_blank" rel="noopener">Ref: ICIITP/Rect/2023/01 Dt.01.06.2023:- Shortlisted Candidates for the position of CEO and COO at Incubation Centre IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1610-press-release-14-09-2023" target="_blank">PRESS RELEASE 14.09.2023</a></li>
+<li><a href="/index.php/2-uncategorised/1609-advertisement-no-r-d-773-diq-306-dated-14-09-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/773/DIQ/306 , DATED: 14.09.2023 for the post of JRF</a></li>
+<li><a href="/images/pdf/Walk%20In%20Interview.docx" target="_blank">Walk In Interview - TIH IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1603-advertisement-no-r-d-855-uee-304-dated-11-09-2023-for-the-post-of-project-fellow" target="_blank">ADVERTISEMENT NO: R&amp;D/855/UEE/304, DATED: 11.09.2023 for the post of Project Fellow</a></li>
+<li><a href="/index.php/2-uncategorised/1604-advertisement-no-r-d-736-lif-305-dated-12-09-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/736/LIF/305 , DATED: 12.09.2023 for the post of JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1602-expression-of-interest-for-empanelment-of-contractors-for-civil-electrical-works-at-iit-patna" target="_blank">EXPRESSION OF INTEREST for Empanelment of contractors for Civil &amp; Electrical works at IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1601-iit-patna-to-host-37th-all-iits-placement-committee-aipc-meet-on-23-sept-2023" target="_blank">IIT Patna to host 37th All IITs Placement Committee (AIPC) meet on 23 Sept 2023</a></li>
+<li><a href="/index.php/2-uncategorised/1598-india-today-group-mdra-best-colleges-ranking-2023-engineering" target="_blank">India Today Group-MDRA Best Colleges Ranking 2023 ( Engineering)</a></li>
+<li><a href="/images/pdf/Certificate Course in German at IIT Patna.pdf" target="_blank">Certification Course in German Language from October 27, 2023</a></li>
+<li><a href="/index.php/2-uncategorised/1597-advertisement-no-r-d-868-bcp-303-dated-29-08-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/868/BCP/303 DATED:29/08/2023 for the post of JRF</a></li>
+<li><a href="/images/pdf/CEP_Brochure_Sweta.pdf" target="_blank">CEP on Research Writing and Presentation Skills</a></li>
+<li><a href="/index.php/2-uncategorised/1591-advertisement-for-faculty-position-at-iit-patna" target="_blank"><strong>Advertisement for Faculty position at IIT Patna</strong> &nbsp;&nbsp;<img src="/images/new.gif" alt="" /></a></li>
+<li><a href="/index.php/2-uncategorised/1582-advertisement-no-advertisement-no-r-d-861-dae-302-dated-14-08-2023-for-the-post-of-project-fellow" target="_blank">ADVERTISEMENT NO: R&amp;D/861/DAE/302 DATED: 14.08.2023 for the post of Project Fellow</a></li>
+<li><a href="/images/pdf/Advt+Format-of-Business-Plan_FIST 9th Batch.pdf" target="_blank">Call for Business Plan for the 9th Batch of Startups-FIST-TBI, IIT Patna</a></li>
+<li><a href="/index.php/2-uncategorised/1580-advertisement-no-r-d-865-ise-301-dated-09-08-2023-for-the-post-of-field-investigator-research-assistant" target="_blank">ADVERTISEMENT NO: R&amp;D/865/ISE/301, DATED: 09.08.2023 for the post of Field Investigator, Research Assistant</a></li>
+<li><a href="/index.php/2-uncategorised/1578-masayume-japanese-program" target="_blank">Masayume Japanese Program</a></li>
+<li><a href="/index.php/2-uncategorised/1577-advertisement-no-r-d-681-dos-300-dated-07-08-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/681/DOS/300, DATED: 07.08.2023 for the post of JRF</a></li>
+<li><a href="/images/pdf/Advt-Appl Format-03 Post-F.pdf" target="_blank">RECRUITMENT DRIVE FOR VARIOUS POSITIONS (Temporary)</a></li>
+<li><a href="/images/pdf/02.08.2023_Debarment%20Order%20_Mansarover.pdf" target="_blank">Debarment Order - M/s Mansarover Industrial Corporation</a></li>
+<li><a href="/index.php/2-uncategorised/1573-advertisement-no-r-d-814-can-298-dated-02-08-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/814/CAN/298 DATED: 02.08.2023 for the post of JRF</a></li>
+<li><a href="/index.php/2-uncategorised/1572-advertisement-no-r-d-789-tse-299-dated-28-07-2023-for-the-post-of-ra" target="_blank">ADVERTISEMENT NO: R&amp;D/789/TSE/299 DATED: 28.07.2023 for the post of RA</a></li>
+<li><a href="/images/pdf/M. Sc. Advertisement Final.pdf" target="_blank">Advertisement for SPOT ADMISSION in M. Sc. programme in Physics/Chemistry/Mathematics</a></li>
+<li><a href="/images/pdf/M. TECH ADVERTISEMENT FINAL.pdf" target="_blank">Advertisement for SPOT ROUND Admissions in M.Tech. Program</a></li>
+<li><a href="/images/pdf/SPOT ADMISSION.pdf" target="_blank">On-spot registration for the collaborative Online/Hybrid UG and PG Degree programs</a></li>
+<!--li><a href="/index.php/2-uncategorised/1570-advertisement-no-r-d-792-awc-297-dated-25-07-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/792/AWC/297 DATED:25.07.2023 for the post of JRF</a></li--> <!--li><a href="https://iciitp.com/index.php/career/" target="_blank" rel="noopener">Incubation Centre IIT Patna invites applications for various positions</a></li--> <!--li><a href="/index.php/2-uncategorised/1563-visitor-s-conference" target="_blank">Visitor's Conference 2023</a></li--> <!--li><a href="/index.php/2-uncategorised/1562-advertisement-no-r-d-820-pmd-296-dated-20-07-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/820/PMD/296 , DATED: 20.07.2023 for the post of JRF</a></li--> <!--li><a href="/index.php/2-uncategorised/1558-advertisement-no-r-d-843-sjc-295-dated-13-07-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/843/SJC/295, DATED: 13.07.2023 for the post of JRF</a></li--> <!--li><a href="/images/pdf/notice NEW ENTRNT JULY 23h-1.pdf" target="_blank">Notice for NEW ENTRANT JULY-23</a></li--> <!--li><a href="/index.php/2-uncategorised/1557-important-notice-for-b-tech-b-tech-m-tech-dual-degree-and-b-tech-mba-dual-degree-batch-2023" target="_blank">Important Notice for B.Tech, B.Tech-M.Tech dual degree and B.Tech- MBA Dual Degree batch 2023</a></li--> <!--li><a href="/index.php/2-uncategorised/1556-important-notice-for-msc-m-tech-phd-july-2023-batch" target="_blank">Important Notice for MSc., M.Tech, PhD (July 2023 batch)</a></li--> <!--li><a href="/images/pdf/brochure iit patna.pdf" target="_blank">One Week Training Program on “Use of Advanced Analytical Instruments for Energy and Coating Applications”</a></li--> <!--li><a href="/index.php/2-uncategorised/1555-advertisement-no-r-d-830-mbm-294-dated-10-07-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/830/MBM/294, DATED: 10.07.2023 for the post of JRF</a></li--> <!--li><a href="/images/pdf/niq/IITP_ACAD_Insurance_Tender-2023.pdf" target="_blank">Notice Inviting Quotations (NIQ) for Empanelment under STUDENT’S MEDICAL INSURANCE SCHEME</a></li--> <!--li><a href="/images/pdf/Corrigendum - Recruitment Advt.pdf" target="_blank">Corrigendum - IIT Patna Vishlesan I-Hub Foundation (Various Positions) </a></li--> <!--li><a href="/index.php/2-uncategorised/1551-advertisement-no-r-d-800-sro-293-dated-07-07-2023-for-the-post-of-srf" target="_blank">ADVERTISEMENT NO: R&amp;D/800/SRO/293, DATED: 07.07.2023 for the post of SRF</a></li--> <!--li><a href="/images/pdf/advertisment_ TIH23-2401.pdf" target="_blank">IIT Patna Vishlesan I-Hub Foundation- Various Positions </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1549" target="_blank">ADVERTISEMENT NO: IITP/SA/2023-24/01, DATED: 30.06.2023 for the post of Psychologists </a></li--> <!--li><a href="/index.php/2-uncategorised/1548-advertisement-no-r-d-719-ipan-292-dated-28-06-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/719/IPAN/292, DATED: 28.06.2023 for the post of JRF</a></li--> <!--li><a href="/index.php/2-uncategorised/1546-advertisement-notice-and-proforma-of-quoting-rate-of-interest-wrt-invitation-of-quotation-from-banks" target="_blank">Advertisement notice and Proforma of quoting Rate of Interest wrt Invitation of quotation from Banks</a></li--> <!--li><a href="https://drive.google.com/file/d/18vNkwMa9BTHUFDa6GW__lu1kG2ohcNc_/view" target="_blank" rel="noopener">Drone film: On 21<sup>st</sup> June, 2023 at 6 am, 9<sup>th</sup> International Yoga Day was celebrated under the leadership of Prof. T. N. Singh, Director, IIT Patna, at the Football Ground, IIT Patna.</a></li--> <!--li><a href="/images/pdf/Bid%20Opening%20Notice..pdf" target="_blank">Bid Opening Notice NIQ NO: / IITP/Acad/Insurance/2023/01, Dated: 01.06.2023</a></li--> <!--li><a href="/index.php/2-uncategorised/1543-serb-sponsored-online-workshop-on-emerging-trends-in-liquid-vapor-phase-change-heat-transfer-july-17-19-2023" target="_blank">SERB sponsored online workshop on Emerging Trends in Liquid-Vapor Phase Change Heat Transfer, July 17-19, 2023</a></li--> <!--li><a href="/images/pdf/Self-Driving-Car.pdf" target="_blank">Self-Driving Using AI-CNN: AI-4-IoT MTP IIT Patna Prototype</a></li--> <!--li><a href="/images/pdf/Course Brochure DL for DH_18_6_23.pdf" target="_blank">CEP course on Deep Learning for Digital Health: Technology and Business</a></li--> <!--li><a href="/index.php/2-uncategorised/1540-advertisement-no-r-d-765-dgc-289-dated-16-06-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO:R&amp;D/765/DGC/289, DATED:16.06.2023 for the post of JRF</a></li--> <!--li><a href="/index.php/2-uncategorised/1539-advertisement-no-r-d-826-cea-290-dated-16-06-2023-for-the-post-of-research-associate" target="_blank">ADVERTISEMENT NO: R&amp;D/826/CEA/290, DATED:16.06.2023 for the post of Research Associate</a></li--> <!--li><a href="/index.php/2-uncategorised/1538-advertisement-no-r-d-827-ahs-291-dated-16-06-2023-for-the-post-of-research-associate" target="_blank">ADVERTISEMENT NO: R&amp;D/827/AHS/291, DATED:16.06.2023 for the post of Research Associate</a></li--> <!--li><a href="/gymkhana/openhouse/index.html" target="_blank" rel="noopener">For details about the open house, click here.</a></li--> <!--li><a href="/gymkhana/" target="_blank" rel="noopener">Students' Gymkhana Official Website</a></li--> <!--li><a href="/images/pdf/Corrigendum2_IITPAcadInsurance202301.pdf" target="_blank">Corrigendum 2 for the NIQ NO: IITP/Acad/Insurance/2023/01, Date: 01.06.2023 </a></li--> <!--li><a href="/index.php/2-uncategorised/1533-advertisement-no-r-d-773-diq-288-dated-09-06-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/773/DIQ/288, DATED: 09.06.2023 for the post of JRF</a></li--> <!--li><a href="/images/pdf/Corrigendum_IITPAcadInsurance202301.pdf" target="_blank">Corrigendum for the NIQ NO: IITP/Acad/Insurance/2023/01, Date: 01.06.2023 </a></li--> <!--li><a href="/index.php/2-uncategorised/1531-advertisement-no-r-d-781-mpc-287-dated-07-06-2023-for-the-post-of-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/781/MPC/287, DATED: 07.06.2023 for the post of JRF</a></li--> <!--li><a href="/index.php/2-uncategorised/1529-advertisement-no-r-d-810-cra-286-dated-06-06-2023-for-ph-d-project-funded" target="_blank">ADVERTISEMENT NO: R&amp;D/810/CRA/286, DATED: 06.06.2023 for Ph.D (Project Funded)</a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1534" target="_blank">Notice Inviting Quotations (NIQ) for Empanelment under STUDENTS’ MEDICAL INSURANCE SCHEME</a></li--> <!--li><a href="/images/pdf/Advertisement - JRF - May 2023.pdf" target="_blank">ADVERTISEMENT NO: R&amp;D/735/RCG/274, DATED: 30.05.2023 for the post of JRF</a></li--> <!--li><a href="/images/pdf/Corrigendum to Advertisement Number_281 Dated_ 15_05_2023.pdf" target="_blank">Corrigendum for the ADVERTISEMENT NO: R&amp;D/787/ASS/281, Dated: 15.05.2023 </a></li--> <!--li><a href="https://academics.iitp.ac.in/admission.php" target="_blank" rel="noopener">List of selected candidates for PhD programme July 2023</a></li--> <!--li><a href="/images/pdf/FIST-TBI IIT PATNA Training and Short Term courses brochure2.pdf" target="_blank">Short-Term Courses with Hands-on Practice</a></li--> <!--li><a href="/images/pdf/Combined Advertisement_EE Department.pdf" target="_blank">Advertisement for the post of (1) Junior Research Fellow (2)Senior Research Fellow</a></li--> <!--li><a href="/images/pdf/Consolidated_Adverstisement TIH updated.pdf" target="_blank">Advertisement for the post of (1) Junior Research Fellow (2)Senior Research Fellow</a></li--> <!--li><a href="https://iciitp.com/index.php/call-for-proposals/" target="_blank" rel="noopener">Incubation Centre IIT Patna invites applications for support under NIDHI-PRAYAS &amp; NIDHI-EIR scheme of the NSTEDB, DST</a></li--> <!--li><a href="https://www.tih-iitp.in/ug-pgfellowship" target="_blank" rel="noopener">Call for applications for Chanakya UG/PG Fellowships from Vishlesan I-Hub Foundation (TIH), IIT Patna</a></li--> <!--li><a href="/index.php/2-uncategorised/1524-advertisement-no-r-d-787-ass-281-dated-15-05-2023-for-the-post-of-research-assistant" target="_blank">ADVERTISEMENT NO: R&amp;D/787/ASS/281, DATED: 15.05.2023 for the post of Research Assistant</a></li--> <!--li><a href="/images/pdf/MTech AI-TIH-2023-2024v1_upd.docx" target="_blank">M.Tech. in Artificial Intelligence-Admission (2023-2024)</a></li--> <!--li><a href="/images/pdf/Corrigendum_19.05.2023.pdf" target="_blank">Corrigendum against Advertisement No: R&amp;D/792/AWC/277. Dated: 28.04.2023 for the post of Project Assistant</a></li--> <!--li><a href="/images/pdf/Notice_15.05.2023_IITPRECTNT012023.pdf" target="_blank">Notice for extension of last date for payment of application fee and/or submission of application only for those applicants who have already registered by 15.05.2023 against advertisement no. IITP/RECT/NT/01/2023 dated 20.04.2023 </a></li--> <!--li><a href="/images/pdf/Advt+Format-of-Business-Plan_FIST.pdf.pdf" target="_blank">Call for Business Plan for 8th Batch of Startups at FIST-TBI IIT Patna</a></li--> <!--li><a href="/index.php/2-uncategorised/1522-advertisement-no-r-d-757-drsp-279-dated-10-05-2023-for-the-post-of-junior-research-fellow-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/757/DRSP/279 , DATED: 10.05.2023 for the post of Junior Research Fellow (JRF)</a></li--> <!--li><a href="/index.php/2-uncategorised/1521-advertisement-no-r-d-711-serb-280-dated-10-05-2023-for-the-post-of-junior-research-fellow-jrf" target="_blank">ADVERTISEMENT NO: R&amp;D/711/SERB/280 , DATED: 10.05.2023 for the post of Junior Research Fellow (JRF)</a></li--> <!--li><a href="https://iitp-cep.in/panel/registration.aspx" target="_blank" rel="noopener"><span style="color: #ff00ff;">IIT Patna invites application for Admission to 3 Year UG Degree Program in Computer Science and Data Analytics (CSDA) and Bachelor of Business Administration (BBA).</span><strong> Apply Now</strong></a></li--> <!--li><a href="/images/pdf/vritika2023 (3).pdf" target="_blank">SERB-Sponsored Summer Internship Under VRITIKA in the Department of EE, IIT Patna</a></li--> <!--li><a href="/images/pdf/Advertisement_R&amp;D_792_SONY_278.pdf" target="_blank">Advertisement No: R&amp;D/573/SONY/278, DATED: 04.05.2023 for the post of Senior Research Fellow</a></li--> <!--li><a href="/index.php/2-uncategorised/1520-phd-shortlisted-canddidates-for-test-interview" target="_blank">PHD Shortlisted canddidates for Test Interview</a></li--> <!--li><a href="/images/pdf/Advt-Appl Format-Executive+AOA.pdf" target="_blank">RECRUITMENT DRIVE FOR VARIOUS POSITIONS (Temporary) Walk-in-Interview</a></li--> <!--li><a href="/images/pdf/Advertisement No R&amp;D_792_AWC_277_PA.pdf" target="_blank">Advertisement No: R&amp;D/792/AWC/277. Dated: 28.04.2023 for the post of Project Assistant</a></li--> <!--li><a href="/images/pdf/Advertisement No R&amp;D_792_AWC_276 _RA-II.pdf" target="_blank">Advertisement No: R&amp;D/792/AWC/276. Dated: 28.04.2023 for the post of Research Associate-II</a></li--> <!--li><a href="/images/pdf/ADVERTISEMENT NO R&amp;D_792_AWC_275_JRF.pdf" target="_blank">Advertisement No: R&amp;D/792/AWC/275. Dated: 28.04.2023 for the post of JRF</a></li--> <!--li><a href="/images/pdf/Adverstisement_JRF_274_P-713.pdf" target="_blank">ADVERTISEMENT NO: R&amp;D/713/SERB/274, DATED: 20.04.2023 for the post of JRF</a></li--> <!--li><a href="/images/pdf/InternshipIIT_PATNA.pdf" target="_blank">Attractive Project Internship Opportunity at IIT PATNA on latest software development platforms</a></li--> <!--li><a href="/images/pdf/FIST-TBI IIT Patna.pdf" target="_blank">"Solve for Tomorrow" Event on 21st April 2023</a></li--> <!--li><a href="/images/pdf/Entreprenureship program.pdf" target="_blank">Entrepreneurship Workshop from 10 -22 May 2023</a></li--> <!--li><a href="/index.php/2-uncategorised/1515-advertisement-in-project-no-tih-ee-asp-007-titled-auditory-scene-analysis-in-audio-signal-processing-using-deep-learning-methods-for-the-post-of-junior-research-fellow-jrf" target="_blank">ADVERTISEMENT in Project No. : TIH/EE/ASP/007 titled "Auditory Scene Analysis in Audio Signal Processing using Deep Learning Methods" for the post of Junior Research Fellow (JRF)</a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1514" target="_blank"><strong><span style="color: #ff6600;">EBSB - Yuva Sangam Phase -II</span> to <span style="color: #4e0684;">NIT Tiruchirapalli</span> <span style="color: #591313;">organised</span> by <span style="color: #30772a;">IIT Patna</span> <span style="color: #ef155a;">under</span> <span style="color: #fe6200;">Ek-Bharat</span> <span style="color: #536cf7;">Shrestha</span> <span style="color: #30772a;">Bharat</span></strong> </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1510" target="_blank">Advertisement for Ph.D. Admission – July 2023 (Autumn Semester, AY-2023-24) at IIT Patna </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1511" target="_blank">Advertisement for Admission to M. Tech. Programme for Academic Session 2023-24 at IIT Patna </a></li--> <!--li><a href="/images/pdf/Spring_academic_calender_btech_bs_2022.pdf" target="_blank">Academic calendar (Spring Semester) of B.Tech/BS batch 2022 </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1508" target="_blank">ADVERTISEMENT NO: R&amp;D/683/DNG/270, DATED: 15.03.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="/images/pdf/Advt2023_FIST-TBI-INTERN.pdf" target="_blank">Internship Opportunity 2023: FIST-TBI, IIT Patna </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1509" target="_blank">ADVERTISEMENT DATED: 23.03.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1506" target="_blank">ADVERTISEMENT NO: R&amp;D/785/RET/273, DATED: 17.03.2023 for the post of Research Associate </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1505" target="_blank">ADVERTISEMENT NO: R&amp;D/781/MPC/271, DATED: 17.03.2023 for the post of Junior Research Fellow (JRF) and Field Worker </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1502" target="_blank">Brain-inspired/Neuromorphic Computing for Responsible AI", is being organized from March 20-26, 2023, by the Department of Electrical Engineering at IIT Patna </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1504" target="_blank">ADVERTISEMENT NO: R&amp;D/762/CSI/269, DATED: 13.03.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1498" target="_blank">Advertisement for Bureau of Indian Standards (BIS) Chair Professor, IIT Patna </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1496" target="_blank">ADVERTISEMENT NO: R&amp;D/510/SOE/268, DATED: 06.03.2023 for the post of Junior Research Fellow/ Senior Research Fellow </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1490" target="_blank">ADVERTISEMENT NO: R&amp;D/648/Meity/267, DATED: 28.02.2023 for the post of Technical Staff </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1476" target="_blank">ADVERTISEMENT NO: R&amp;D/750/CSE/264, DATED: 24/02/2023 for the post of Junior Research Fellow (JRF) and Project Associate </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1485" target="_blank">ADVERTISEMENT NO: R&amp;D/557/LDD/265, DATED: 24.02.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="https://sites.google.com/view/ncde23/home" target="_blank" rel="noopener">National Conference on Differential Equations (Theory, Method and Applications), 17-19 March, 2023 </a></li--> <!--li><a href="/images/pdf/Advt-Appl_Format-Executive+AOA+SA-28032023.pdf" target="_blank">Recruitment Drive for Various Positions (Temporary) under FIST-TBI at IIT Patna <span style="color: #ff6600;">extended last date (28.03.2023)</span></a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1475" target="_blank">ADVERTISEMENT NO: R&amp;D/761/SCM/261, DATED: 15.02.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1474" target="_blank">ADVERTISEMENT NO: R&amp;D/552/600/708/EE/263, DATED: 15.02.2023 for the post of Junior Research Fellow (JRF), Senior Research Fellow and Project Research Assistant </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1476" target="_blank">ADVERTISEMENT NO: R&amp;D/750/CSE/264, DATED: 13.02.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1491" target="_blank">ADVERTISEMENT NO: R&amp;D/757/DRSP/262, DATED: 13.02.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="/images/pdf/HSS-Brochure_Conf-1.pdf" target="_blank">International Conference on Culture, Cognition and Globalization: the Viability of Languages </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1468" target="_blank">ADVERTISEMENT NO: R&amp;D/719/IPAN/260, DATED: 06.02.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="/cep/images/pdf/brochure%20-%20ROPI_REV.pdf" target="_blank" rel="noopener">Continuing Education Programme (Online) on 'Resource Optimization for Process Industries (ROPI)' 17-19 February 2023, Coordinators Dr. Nitin Dutt Chaturvedi &amp; Dr. B. B. Upadhyay </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1463" target="_blank" rel="noopener">Pariksha pe Charcha-2023 </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1465" target="_blank">ADVERTISEMENT NO: R&amp;D/740/MBI/259, DATED: 19.01.2023 for the post of Project Management &amp; Consultant </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1464" target="_blank">ADVERTISEMENT NO: R&amp;D/740/MBI/258, DATED:19.01.2023 for the post of Junior Research Fellow (JRF) </a></li--> <!--li><a href="/index.php?layout=edit&amp;id=1458" target="_blank" rel="noopener">ADVERTISEMENT NO: R&amp;D/736/LIF/257, DATED: 12.01.2023 for the post of Junior Research Fellow</a></li--> <!--li><a href="/images/pdf/ADVT-forCEO_TIH_23.pdf" target="_blank" rel="noopener">Applications are invited from Indian Nationals for Chief Executive Officer (CEO) position for IIT Patna’s Vishlesan I-Hub Foundation, a Section-8 Not for Profit Company under Technology Innovation Hub (TIH) of National Mission on Interdisciplinary Cyber Physical Systems (NMICPS) of DST, India.</a></li-->
+<li><a href="/images/pdf/academic_calender_spring_2023.pdf" target="_blank" rel="noopener">Time Table for AY 2023 (Spring &amp; Autum Semester) </a></li>
+<li><a href="/images/pdf/Anusmriti-Vol-4.pdf">The Latest Version Of Anusmriti, Our Alumni Newsletter</a></li>
+</ul>
+</div>
+<p><a href="/index.php?id=583" class="noticebtn">View All</a></p></div>
+                                                    </div>
+                     <!--   <div class="covidboard">
+                            <h2>Convocation</h2>
+                            <p><a href="https://www.iitp.ac.in/convocation2022/" target="_blank">Convocation 2022</a></p>
+                        </div> -->
+                              
+                              <div class="covidboard">
+                            <h2>Media Coverage</h2>
+                            <p><a href="https://www.iitp.ac.in/index.php/en-us/?option=com_content&view=article&id=1125">IIT Patna in Media</a></p>
+                            <!-- <div class="custom">
+                                <ul>
+                                    <li><a href="https://www.iitp.ac.in/index.php/en-us/?option=com_content&view=article&id=1125">IIT Patna in Media</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+
+                        <!-- <div class="course-offered">
+                            <h2>NIRF</h2>
+                            
+
+<div class="custom"  >
+	<ul>
+<li><a href="/images/pdf/NIRF-Engineering-Data-2022.pdf">NIRF Engineering Data 2022</a></li>
+<li><a href="/images/pdf/NIRF-Overall-Data-2022.pdf">NIRF Overall Data 2022</a></li>
+</ul>
+</div>
+                                                        <p>Please write to <a href="mailto:pic_ranking@iitp.ac.in">pic_ranking@iitp.ac.in</a> for any query and feedback.</p>
+
+                        </div> -->
+                        
+                         <!-- <div class="course-offered nirf-ariia" style="display: none;"> -->
+                         <div class="course-offered nirf-ariia">
+                            <h2><span class="tab_btn-homeslide tab_active-homeslide" data-tab="tab1">NIRF</span><span class="tab_btn-homeslide" data-tab="tab2">ARIIA</span></h2>
+                            <div class="tab_cont-homeslide" id="tab1" style="display: block;">
+                              <div class="custom">
+                                    
+                              		
+
+<div class="custom"  >
+	
+
+<div class="custom"  >
+	<ul>
+<li><a href="/images/pdf/NIRF-Engineering-Data-2022.pdf">NIRF Engineering Data 2022</a></li>
+<li><a href="/images/pdf/NIRF-Overall-Data-2022.pdf">NIRF Overall Data 2022</a></li>
+</ul>
+</div>
+</div>
+                            		
+                                    <!--<ul>
+                                         <li><a href="#">NIRF Engineering Data</a></li>
+                                        <li><a href="#">NIRF Overall Data</a></li> 
+                                    </ul>-->
+                                    <p>Please write to <a href="mailto:pic_ranking@iitp.ac.in">pic_ranking@iitp.ac.in</a> for any query and feedback.</p>
+                                </div>
+                            </div>
+                            <div class="tab_cont-homeslide" id="tab2">
+                                <div class="custom">
+                                	
+
+<div class="custom"  >
+	<ul>
+<li><a href="/images/pdf/ARI-U-0064-Submitted-data-Nov-2019.pdf" target="_blank">Innovation Achievements (ARIIA) - 2020-21</a></li>
+<li><a href="/images/pdf/ARI-U-0064-Submitted-Data-2021.pdf" target="_blank">Innovation Achievements (ARIIA) - 2019-20</a></li>
+</ul></div>
+                                    <!-- <ul>
+                                    	<li><a href="#">ARIIA Engineering Data</a></li>
+                                        <li><a href="#">ARIIA Overall Data</a></li>
+                                    </ul> -->
+                                    <!-- <p>Please write to <a href="mailto:pic_ranking@iitp.ac.in">pic_ranking@iitp.ac.in</a> for any query and feedback.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="main" role="main">
+                    <div class="slider">
+                        <div class="flexslider">
+                            <!------ Banner ------------>
+                            
+
+<div class="custom"  >
+	<div style="display: none;">&nbsp;</div>
+<div style="display: none;">&nbsp;</div>
+<ul class="slides">
+<li><img src="/images/example-slide-333.jpg" alt="#" /> <!-- <h2>Equipping you for<strong><br />Success in your Career<br /> and in Life</strong></h2> --></li>
+<!--<li><img src="/images/AI1.jpg" alt="#" /></li>-->
+<li><img src="/images/example-slide-semi.jpg" alt="#" /></li>
+<li><img src="/images/Dron_flag1.jpg" alt="#" /></li>
+<li><img src="/images/Dron_flag2.jpg" alt="#" /></li>
+<li><a href="http://13.235.83.67/"><img src="/images/coe_1.png" alt="#" /></a></li>
+<li><img src="/images/example-slide-16.jpg" alt="#" /></li>
+<li><img src="/images/example-slide-1.jpg" alt="#" />
+<h2>Equipping you for<strong><br />Success in your Career<br /> and in Life</strong></h2>
+</li>
+<!--
+<li><img src="/images/example-slide-2.jpg" alt="#" />
+<h2>Equipping you for<strong><br />Success in your Career<br /> and in Life</strong></h2>
+</li> --></ul></div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="main-container">
+
+            <div class="mid-container">
+
+                <div class="slibtm">
+
+                    <div class="slidbox-4 test">
+
+                        <div id="main" role="main">
+
+                            <div class="slider">
+
+                                <div class="flexslider test123">
+                                    
+
+<div class="custom"  >
+	<ul class="slides 123">
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/The%20discovery%20of%20Molybdenene.pdf" target="_blank" hreflang="en">The discovery of Molybdenene – "Metallic" Analogue of Graphene by Dr. Alpana Nayak and team</a></p>
+</li>
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/website-update-A3N-anomaly-detection-paper-2022.pdf">Nazia Aslam, Prateek Kumar Rai, Maheshkumar H Kolekar, "A3N: Attention-based adversarial autoencoder network for detecting anomalies in video sequence", Journal of Visual Communication and Image Representation, Vol 87, August 2022.</a><br /> <a href="https://doi.org/10.1016/j.jvcir.2022.103598" target="_blank" rel="noopener"><span style="color: blue;">https://doi.org/10.1016/j.jvcir.2022.103598</span></a></p>
+</li>
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/index.php/2-uncategorised/1091-apurva-sinha-pranay-ranjan-anzar-ali-jayakumar-balakrishnan-and-ajay-d-thakur-graphene-oxide-and-its-derivatives-as-potential-ovchinnikov-ferromagnets">Apurva Sinha, Pranay Ranjan, Anzar Ali, Jayakumar Balakrishnan and Ajay D Thakur, "Graphene oxide and its derivatives as potential Ovchinnikov ferromagnets".</a></p>
+</li>
+<!-- <li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/Anusmriti-Vol-4.pdf">The Latest Version Of Anusmriti, Our Alumni Newsletter</a></p>
+</li> -->
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/COVID-19-Research-Highlight-Dr-Mahesh-Kolekar-07-07-2021.pdf">V K Singh, M H Kolekar, “Deep Learning Empowered COVID-19 Diagnosis Using Chest CT Scan Images for Collaborative Edge-Cloud Computing Platform”, Springer Journal on Multimedia Tools and Applications,2021</a></p>
+</li>
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/Research-Highlight-Dr-Mahesh-Kolekar-27-05-2021.pdf">1.) Iterative Filtering Decomposition based Early Dementia Diagnosis using EEG with Cognitive Tests</a><br /><a href="/images/pdf/1-Dr-Kolekar-IEEE-Transaction-on-Neural-Systems-and-Rehabilitation-Engg-2020.pdf">2.) Published paper for your information</a><!-- <img src="/images/photo/new.gif" alt="" /> --></p>
+</li>
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1016"><span style="color: blue; font-weight: bold;">Milestone by IIT Patna - 1<sup>st</sup> "Made in India" Battery Management System (BMS)</span></a></p>
+</li>
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/index.php?id=616">TAQE: Tweet Retrieval Based Infrastructure Damage Assessment During Disasters</a></p>
+</li>
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/index.php?id=617">Carbon-Dot Protein Nanoassembly for combination antibiotic-photodynamic Therapy application</a></p>
+</li>
+<li>
+<h2>Research<br /> <strong>Highlights</strong> <img src="/images/highlight-search.jpg" alt="#" /></h2>
+<p><a href="/index.php?id=618">An ingenious fluidic capacitor for complete suppression of thermal fluctuations in two-phase microchannel heat sinks</a></p>
+<p><a href="/index.php/9-english/132-research-highlight" hreflang="en" class="readmore-button">Read More...</a></p>
+</li>
+</ul></div>
+                                                                    </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="slidbox-4">
+
+                        <div id="main" role="main">
+
+                            <div class="slider">
+
+                                <div class="flexslider">
+                                    
+
+<div class="custom"  >
+	<ul class="slides">
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="https://inyas.in/2023/09/20/results-of-the-national-research-competition-for-best-thesis/" target="_blank" rel="noopener" hreflang="en">Dr. Afaq Ahmad Khan (PhD, Deptt. of Chemistry) won "Best Thesis for Excellence in Nano Innovation"  in the National Research Competition for Best Thesis organized by the Indian National Young Academy of Science (INYAS) founded by the INSA council in  2014</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/The%20discovery%20of%20Molybdenene.pdf" target="_blank" hreflang="en">Dr. Alpana Nayak and team has published their work on the discovery of a new 2D material in the journal – Nature Nanotechnology (Impact factor 40.523, rank 1 among nanotechnology journals)</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1409" hreflang="en">Recent achievements from DCEE</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1397" hreflang="en">We at IIT Patna extend our best wishes and many congratulations to Prof. T.N. Singh, Hon'ble Director, IIT Patna for his outstanding work in editing, a significant book “Water Scarcity, Contamination and Management” published in Elsevier Series.</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1387" hreflang="en">IIT Patna faculty members have been included in the “World’s Top 2% Scientists List of Stanford University and published by Elsevier in Oct 2022"</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p>Hearty congratulations to Dr. Viabhav Singhal for drafting the Indian Standard titled "IS 17848: 2022 Confined Masonry for Earthquake Resistance - Code of Practice" along with Prof. Durgesh C Rai, Prof. Sudhir K Jain and Prof. Svetlana Brzev. It has been published and notified in the Official Gazette of India.</p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1258">IIT Patna fraternity extends heartfelt congratulation to Prof. Somnath Tripathy, Department of Computer Science and Engineering, IIT Patna.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1205">Congratulations to Ms. Archita Maiti (Ph.D./Chemistry/IITP) under the mentorship of Dr. Snehasis Daschakraborty, Asst. Professor, Dept. of Chemistry, IIT Patna.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1203">Publication of a book by Dr. Subrata Hait</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p>Dr. Utpal Roy is awarded the "Outstanding Teacher Award in Physics", STAIR International Award Forum, Science and Technology Academic, Innovations and Research Awards 2021.</p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/20-Srest-Somay_72_Device-Simulation.pdf" target="_blank">Srest Somay and Saurabh Kumar Pandey got Best Paper Award for their article at 21st International Workshop on Physics of Semiconductor Devices (IWPSD) Conference IIT Delhi 14-17 December 2021.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1171">Dr. Pranay Ranjan, an erstwhile Ph.D. student of the Department of Physics, IIT Patna has joined as an Assistant Professor at IIT Jodhpur. Dr. Pranay Ranjan defended his thesis on February 25, 2019 and was a post-doctoral fellow working at the College of Science, UAE University before joining IIT Jodhpur.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1153">Books Published by IIT Patna Faculty-CSE Department with Wiley and Springer.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1152">IIT Patna congratulates two faculty members, Dr. Sudhir Kumar and Dr. Jawar Singh who published their books with CRC press and Springer respectively.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1151">IIT Patna takes immense pride in sharing the information that Dr.Rishi Raj, Associate Professor (Mechanical Engineering) and Associate Dean (Resources) has been conferred the prestigious Swarnajayanti Fellowships for Year 2020-21.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=1149">Invited to join the editorial board of Engineering Applications of Artificial Intelligence (EAAI), Elsevier (impact factor 6.2, h5-index: 65)</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/2-uncategorised/1120-we-congratulate-mr-praveen-kumar-research-scholar-of-dr-navin-k-nishchal-for-receiving-the-best-phd-thesis-award">We congratulate Mr. Praveen Kumar, research scholar of Dr. Navin K. Nishchal, for receiving the Best PhD Thesis Award.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/2-uncategorised/1119-iit-patna-takes-immense-pride-in-congratulating-dr-md-lokman-h-choudhury-for-his-article-recent-applications-of-thiourea-based-organocatalysts-in-asymmetric-multicomponent-reactions-amcrs-published-in-rsc-journal-org-biomol-chem-2020-18-29-5513-5532-this-article-has-been-cited-in-scientific-background-on-the-nobel-prize-in-chemistry-2021">IIT Patna takes immense pride in congratulating Dr. Md. Lokman H Choudhury for his article.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/2-uncategorised/1115-biaxial-planar-tensile-testing-device">"BIAXIAL PLANAR TENSILE TESTING DEVICE".</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="https://www.wiley.com/en-us/Rubber+to+Rubber+Adhesion-p-9781119768890">Book titled “Rubber to Rubber Adhesion” authored by Dr. Dinesh Kumar Kotnees</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Dr. Saurabh Kumar Pandey is selected for the BRICS Young Scientist Conclave 2021 under the Energy Solutions theme</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Dr. Udit Satija is selected for the BRICS Young Scientist Conclave 2021 under the Cyber-Physical Solutions theme</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Paper Title "A new type low-cost, flexible and wearable tertiary nanocomposite sensor for room temperature hydrogen gas sensing" Authors:- Deepak Punetha, Manoranjan Kar &amp; Saurabh Kumar Pandey is listed in "Top 100 Research Paper in Materials Science" with rank-9.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Dr. Subrata Hait has been inducted as a Fellow of the Institution of Engineers (India) (IEI) in the Environmental Engineering division and has also been appointed as an Academic Editor of the Journal - PLOS Water.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Mohit Mittal (M. Sc. Physics 2020 batch) won third prize in the hackathon event on quantum computing, organized by ISTE NIT Calicut and the Eigensolvers.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Dr. Snehasis Daschakraborty from the dept of Chemistry has been elected as a Member of National Academy of Science, India (MNAS) in 2021.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Dr. Maheshkumar H Kolekar is elected as a Fellow of The Institution of Electronics and Telecommunication Engineers (IETE).</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Dr. Sujoy Kumar Samanta has been awarded with Fellow of The Institution of Engineers (India)</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/en-us/9-english/140-points-of-pride">Dr. Sriparna Saha is appointed as a member of the editorial board of IEEE Internet.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/IMG-20210222-WA0003.jpg">Dr. Keshri and team's work on Graphene covered by following news Chemical and Engineering News (C&amp;EN), Weekly magazine of American Chemical Society and The Graphene Council</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en">Plasma Spray Coating Laboratory, MME Department Has Published An Article In "ACS Nano" Journal For Exfoliating Graphite To Graphene By Plasma Spraying Technique.</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/images/pdf/bestPosterPaperAward_comsnet2021.png">The paper titled Differential d-Vectors for RSS based Localization in Dynamic IoT Networks" by Piyush Tiwary, Ankur Pandey and Dr. Sudhir Kumar has been awarded the best poster paper in the 13th International Conference on COMmunication Systems &amp; NETworkS (COMSNETS 2021).</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en">Mr. Vikas Dubey and Ms . Shakkira Erimban, doctoral students of Molecular Simulation Lab in the Department of Chemistry have bagged two prestigious young scientist awards,</a></p>
+</li>
+<li>
+<h2>Points of<br /><strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en">KShitij Mishra, a PhD scholar in the Department of Computer Science and Engineering has been awarded with the prestigious Prime Minister Research Fellowship (PMRF) scheme.</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en">Dr. Sriparna Saha is listed in the world's top 2% scientists list with the world rank of 4023 out of total 215114 scientists in the field of Artificial Intelligence and Image Processing.</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en">Dr. Naveen has been listed in the "World's Top 2% Scientists List with the world rank 952 in the field of Optics"</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en">Dr. Surajit Kumar Paul have been included in the “World’s Top 2% Scientists List of Stanford University"</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en">Dr. Atul Thakur, has become an Associate Editor of the prestigious ASME Journal of Computing and Information Science in Engineering</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en">Mr. Piyush Kumar, dept of ME, has got the best paper award for the paper titled "Influence of Capillary Number on Pressure Profile Evolution in Microfluidic T-Junction” in "5th World Congress on Momentum, Heat and Mass Transfer (MHMT'20)</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/2-uncategorised/1003-iiit-bhagalpur-iit-patna-team-iiitbh-iitp-with-members-mr-saichethan-m-reddy-iiit-bh-dr-naveen-saini-iitp-dr-sriparna-saha-iitp-prof-pushpak-bhattacharyya-has-participated-in-the-three-shared-tasks-cl-scisumm-laysumm-longsumm-at-the-first-workshop-on-scholarly-document-processing-https-ornlcda-github-io-sdproc-collocated-with-emnlp-2020-which-is-a-well-known-conference-category-a-in-core-ranking-i">IIIT Bhagalpur-IIT Patna team (IIITBH-IITP) with members.It is glad to share that the team has obtained the best performance on community summaries of the CL-SciSumm 2020 task.</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="#">Dr. Snehasis Daschakraborty (dept of chemistry) was awarded the INSA Young Scientist Award for "significant contributions in the area of dynamics and hydrophobicity in supercooled water.</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="#">Dr. Sudhan Majhi Is Elected As A Fellow Of The Institution Of Electronics &amp; Telecommunication Engineers.</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/images/photo/WhatsApp_Image2020_09_12_100325.jpeg">Paper Titled Regulated Soft Switching Power Supply Using Buck-Boost Converter By Dr. R Behera And Research Team Got The Best Paper Award In CISPSSE-2020 Conference.</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/2-uncategorised/953-dr-murshid-imam-has-been-appointed-as-an-editor-of-the-journal-high-temperature-materials-and-processes">Dr. Murshid Imam has been appointed as an Editor of the Journal, “High Temperature Materials and Processes".</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php/2-uncategorised/951-first-exact-model-for-negative-absolute-temperature-0-k">First exact model for “Negative Absolute Temperature” (&lt;0<sup>0</sup>K).</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=908">The article titled as 'Greenhouse Gas Emission during Composting and Vermicomposting of Organic Wastes - A Review' authored by Ankita Swati and Dr. Subrata Hait is among the top 10% most downloaded papers for 2018-19 in CLEAN - Soil, Air, Water</a></p>
+</li>
+<li>
+<h2>Points of <br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?layout=edit&amp;id=907">Research Paper by Kushwant Singh, Dr. Ingo Ott and Dr. Neeladri Das among the top 10% most downloaded papers</a></p>
+</li>
+<li>
+<h2>Points of<br /> <strong>Pride</strong> <img src="/images/point-like.jpg" alt="#" /></h2>
+<p><a href="/index.php?id=510">Prof. P. K. Sarma Best Paper Award to Kumar Nishant Ranjan Sinha</a></p>
+<p><a href="/index.php/9-english/140-points-of-pride" hreflang="en" class="readmore-button">Read More..</a></p>
+</li>
+</ul></div>
+                                    
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="slidbox-4 slidbox-4-last">
+
+                        <div class="slidergallery">
+
+                            <img src="https://www.iitp.ac.in/templates/iitpatna/images/slidergallery.jpg" alt="#">
+
+                            <a href="#">Photo Gallery</a>
+
+                        </div>
+
+                        <div id="main" role="main">
+
+                            <div class="slider">
+                                <!----- THE NEWS--->
+                                <div class="flexslider">
+                                    
+
+<div class="custom"  >
+	<ul class="slides">
+<li>
+<p>In The News</p>
+<p><a href="/images/Banner-Quantum Quake2.jpg">Quantum Quake 8 -10 November 2023</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php?layout=edit&amp;id=1276" target="_blank" rel="noopener"><span style="color: #ff7800; font-size: 16px; font-weight: bold;">Concluded Cyber security workshop event organized on May 29, 2022</span></a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php?layout=edit&amp;id=1228" target="_blank" rel="noopener"><span style="color: #ff7800; font-size: 16px; font-weight: bold;">Workshop on Promotion of Research Infrastructure and Entrepreneurship in Science and Technology and Product Launch on March 13<sup>th</sup>-15<sup>th</sup>, 2022</span></a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/rsd/">RSD 2021.</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="#">Mr. Pratik Kumar Parmar and Dr. Kailash Chandra Ray, obtained patent for the invention entitled: AUTOMATIC BOOKLET SCANNING MACHINE AND ITS METHOD OF WORKING.</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/images/pdf/brochure.pdf">Workshop (online) On Intelligent Edge Computing for Cyber Physical and Cloud Systems (Sponsored By: ICPS Division DST) Feb 26th to 28th, 2021 at IIT Patna.</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p>Indigenous BMS Technology by IIT Patna- a move towards self reliance and "Atmnirbhar Bharat"</p>
+<p><a href="https://www.jagran.com/bihar/patna-city-this-device-prepared-in-iit-patna-will-alert-before-the-car-is-on-fire-the-price-is-also-very-low-21179718.html?utm_source=referral&amp;utm_medium=WA&amp;utm_campaign=social_share" target="_blank" rel="noopener"><span style="color: #bd362f; font-weight: bold;">Click here for more details...</span></a></p>
+</li>
+<li>
+<p>In The News</p>
+<p>Dr. Amarnath Hegde has been selected for ' Reviewer of the year 2019' award i n non- editorial board member (non-EBM) category by Indian Geotechnical Society</p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php/2-uncategorised/999-department-of-ee-is-organizing-an-online-open-house-first-time-for-the-phd-applicants-for-iit-patna-on-2nd-november">Department of EE is organizing an online open house first time for the PhD applicants for IIT Patna on 2nd November</a></p>
+</li>
+<!-- <li>
+<p>In The News</p>
+<p><a href="/index.php/2-uncategorised/984-6th-international-conference-on-cyber-security-privacy-in-communication-networks-iccs-2020-28-29-december-2020-indian-institute-of-technology-patna">6th International Conference on Cyber Security, Privacy in Communication Networks (ICCS) 2020 28-29 December 2020 Indian Institute of Technology, Patna</a></p>
+</li> -->
+<li>
+<p>In The News</p>
+<p><a href="/images/pdf/Hindi_Pakwada_Result2020.pdf">Hindi Pakhwara 2020 Results</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php/2-uncategorised/967-iit-patna-signs-mou-with-flipkart-for-research-on-artificial-intelligence">IIT Patna Signs MOU With Flipkart For Research On Artificial Intelligence.</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php/2-uncategorised/952-dr-murshid-imam-gave-a-talk-titled-hybrid-3d-printing-with-gmaw-twin-wire-based-additive-layer-enhanced-by-friction-stir-processing-in-the-workshop-organized-by-ukieri-iit-kharagpur-and-iit-delhi-on-june-24">Dr. Murshid Imam Gave A Talk Titled "Hybrid 3D Printing With GMAW-Twin Wire Based Additive Layer Enhanced By Friction Stir Processing" In The Workshop Organized By UKIERI, IIT Kharagpur And IIT-Delhi On June 24.</a></p>
+</li>
+<!-- <li>
+<p>In The News</p>
+<p><a href="/index.php/2-uncategorised/943-latest-alumni-newsletter-anusmriti">Latest Alumni Newsletter ANUSMRITI</a></p>
+</li> -->
+<li>
+<p>In The News</p>
+<p><a href="/index.php?layout=edit&amp;id=909">Two research articles of Dr. Pratibhamoy Das are in the list of top downloaded (Top 10%) and most read papers in two journals "Mathematical Methods in the Applied Sciences" and "Computational and Mathematical Methods" from Wiley publisher during 2018-2019. One of these is with his Ph. D. student Subrata Rana.</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php?layout=edit&amp;id=910">Dr. Mayank Tiwari and his student Deepak K Prajapati had their publication appearing in the most downloaded section of Wiley's Journal of Lubrication Science.</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php?layout=edit&amp;id=895">IIT Patna Newsletter - Impulse Vol. XII published</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php?id=773"> Dr. Surajit Paul gave an invited lecture at the Indian Institute of Metals, Jamshedpur on "Failure Criteria in Sheet Metal Forming: Forming Limit Diagram and Hole Expansion Ratio </a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php?id=774"> Dr. Sudhan Majhi is appointed as Membership Development Committee Vice-Chairs of IEEE, Communication Society Asia Pacific Board </a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><a href="/index.php?layout=edit&amp;id=839">Press-Note</a></p>
+</li>
+<li>
+<p>In The News</p>
+<p><strong><a href="/index.php?id=775"> Alumni newsletter: ANUSMRITI (Vol.2, Issue 2) has been published.</a></strong></p>
+<p><a href="/index.php?id=152:latest-news&amp;catid=289" hreflang="en" class="readmore-button">Read More..</a></p>
+</li>
+</ul></div>
+                                    
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <script>
+            $(document).ready(function () {
+                                      
+                                      //covid 19 
+                                      
+  $('<span class="covid-19"><a href="https://www.iitp.ac.in/index.php/en-us/?layout=edit&id=887" style="color:red; text-decoration:none; font-weight:bold;">Director Message on COVID-19</a><!--img src="/images/photo/new.gif" draggable="false"--></span>').insertAfter(".test123 .custom");
+                                      
+                $('.redcolor').on('click', function (e) {
+                    // alert('aaa');
+                    $('body').removeClass();
+                    $('body').addClass('redtheme');
+                    e.stopPropagation();
+                });
+
+                $('.navibluecolor').on('click', function (e) {
+                    $('body').removeClass();
+                    $('body').addClass('navybluetheme');
+                    e.stopPropagation();
+                });
+
+                $('.yellowcolor').on('click', function (e) {
+                    $('body').removeClass();
+                    $('body').addClass('yellowtheme');
+                    e.stopPropagation();
+                });
+
+                $('.defaultcolor').on('click', function (e) {
+                    $('body').removeClass();
+                    $('body').addClass('defaulttheme');
+                    e.stopPropagation();
+                });
+
+            });
+        </script>
+        <script defer src="https://www.iitp.ac.in/templates/iitpatna/js/jquery.flexslider.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                //SyntaxHighlighter.all();
+
+            });
+
+            $(window).load(function () {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    start: function (slider) {
+                        //                $('body').removeClass('loading');
+
+                    }
+                });
+            });
+
+        </script>
+        <script>
+$(document).ready(function() {
+    $(".tab_btn-homeslide").click(function(){
+        var get_tab_id = $(this).attr('data-tab');
+        $('.tab_btn-homeslide').removeClass('tab_active-homeslide');
+        $(this).addClass('tab_active-homeslide');     
+        $('.tab_cont-homeslide').hide();
+        $('#'+get_tab_id).show();       
+        
+    });
+});
+</script>
+          <style>
+          .popupst #main .flexslider {
+   /* z-index: -1;*/
+}
+
+          </style>
+<div class="footer">
+
+    <!----------FOOTER-------->
+    <div class="mid-container">
+        
+
+<div class="custom"  >
+	<ul>
+<li><a href="/index.php/9-english/110-rti" hreflang="en"> RTI</a></li>
+<li><a href="/index.php/2-uncategorised/956-womens-grievance-redressal-committee">WGRC-ICC </a></li>
+<li><a href="/index.php?layout=edit&amp;id=1321">SC/ST/OBC cell</a></li>
+<li><a href="/images/pdf/Annual_Property_Return.pdf">Annual Property Return</a></li>
+<li><a href="/index.php/9-english/114-anti-ragging" hreflang="en">Anti Ragging</a></li>
+<li><a href="/index.php/9-english/115-disclaimer" hreflang="en"> Disclaimer</a></li>
+<li><a href="/index.php/en-us/">Sitemap</a></li>
+<!--<li><a href="/index.php/9-english/139-training-placement-cell" hreflang="en">Training &amp; Placement Cell</a></li> -->
+<li><a href="/index.php?id=630">Webmail</a></li>
+<li><a href="/index.php?id=741">Quick Links</a></li>
+<li><a href="/index.php/en-us/advisory-for-campus-residents-during-corona-virus">Advisory on Corona Virus</a></li>
+</ul></div>
+            </div>
+
+    <div class="copyright">
+        <div class="mid-container">
+            <div class="btm-footer">
+                <p class="fl">Copyright ©  IITP. All rights reserved.</p>
+                <p class="fr">Designed & Developed by <a href="#">Cyfuture</a></p>
+            </div>
+        </div>
+    </div><!-- copyright -->
+
+</div>
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+		
+		
+		
+		
+		
+		
+	var showChar = 50;
+	var ellipsestext = "...";
+	var moretext = "more";
+	var lesstext = "less";
+	$('.more').each(function() {
+		var content = $(this).html();
+
+		if(content.length > showChar) {
+
+			var c = content.substr(0, showChar);
+			var h = content.substr(showChar-1, content.length - showChar);
+
+			var html = c + '<span class="moreelipses">'+ellipsestext;
+
+			$(this).html(html);
+		}
+
+	});
+	
+	
+	
+	
+	
+	
+
+	$(".morelink").click(function(){
+		if($(this).hasClass("less")) {
+			$(this).removeClass("less");
+			$(this).html(moretext);
+		} else {
+			$(this).addClass("less");
+			$(this).html(lesstext);
+		}
+		$(this).parent().prev().toggle();
+		$(this).prev().toggle();
+		return false;
+	});
+});
+    </script>
+<script type="text/javascript" src="https://www.iitp.ac.in/templates/iitpatna/js/webslidemenu.js"></script>
+<script src="https://www.iitp.ac.in/templates/iitpatna/js/jquery.marquee.js" type="text/javascript"></script>
+<script src="https://www.iitp.ac.in/templates/iitpatna/js/md_stylechanger.js" type="text/javascript"></script>
+<script>
+
+    $(function () {
+        var $mwo = $('.marquee-with-options');
+        $('.marquee').marquee();
+        $('.noticeboard ul').marquee({
+            //speed in milliseconds of the marquee
+
+            speed: 8000,
+            //gap in pixels between the tickers
+            gap: 10,
+            //gap in pixels between the tickers
+            delayBeforeStart: 0,
+            //'left' or 'right'
+            direction: 'up',
+            //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: true,
+            //on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
+            pauseOnHover: true
+        });
+
+    });
+
+</script>
+
+
+
+<script>
+    jQuery(function () {
+        var newFontSize = localStorage["FontSize"];
+
+        var resize = new Array('a', 'p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', '.left-pannel ul li a', '.dropdown li a', 'ul', 'span', 'strong', '.resizable');
+        resize = resize.join(',');
+
+
+        //resets the font size when "reset" is clicked
+        var resetFont = jQuery(resize).css('font-size');
+        jQuery(".reset").click(function () {
+            jQuery(resize).css('font-size', resetFont);
+        });
+
+        //increases font size when "+" is clicked
+        jQuery(".increase").click(function () {
+            alert('increase');
+            var originalFontSize = jQuery(resize).css('font-size');
+            var originalFontNumber = parseFloat(originalFontSize, 10);
+            var newFontSize = originalFontNumber * 1.2;
+            //alert(newFontSize);
+
+            if (newFontSize <= 23.04) {
+                jQuery(resize).css('font-size', newFontSize);
+                localStorage.setItem('FontSize', newFontSize);
+                return false;
+            }
+        });
+        jQuery(".decrease").click(function () {
+            //alert('decrease');
+            var originalFontSize = jQuery(resize).css('font-size');
+            var originalFontNumber = parseFloat(originalFontSize, 10);
+            var newFontSize = originalFontNumber * 0.8;
+            //alert(newFontSize);
+            if (newFontSize >= 10) {
+                jQuery(resize).css('font-size', newFontSize);
+                localStorage.setItem('FontSize', newFontSize);
+                return false;
+            }
+        });
+
+    });
+</script>
+<script>
+    $(document).ready(function () {
+       $(document).ready(function () {
+                $('.redcolor').on('click', function (e) {
+                    // alert('aaa');
+                    $('body').removeClass();
+                    $('body').addClass('redtheme');
+                    e.stopPropagation();
+                });
+
+                $('.navibluecolor').on('click', function (e) {
+                    $('body').removeClass();
+                    $('body').addClass('navybluetheme');
+                    e.stopPropagation();
+                });
+
+                $('.yellowcolor').on('click', function (e) {
+                    $('body').removeClass();
+                    $('body').addClass('yellowtheme');
+                    e.stopPropagation();
+                });
+
+                $('.defaultcolor').on('click', function (e) {
+                    $('body').removeClass();
+                    $('body').addClass('defaulttheme');
+                    e.stopPropagation();
+                });
+
+            });
+    });
+</script>
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" type="text/javascript"></script>  
+<script src="https://www.iitp.ac.in/templates/iitpatna/js/glightbox.min.js" type="text/javascript"></script>
+  <script src="https://www.iitp.ac.in/templates/iitpatna/js/custom.js" type="text/javascript"></script>
+  
+
+  <script>
+    var lightbox = GLightbox();
+  </script>
+
+
+<script>
+            $(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+                  loop:true,
+                  margin:10,
+                  responsiveClass:true,
+                  autoplay:true,
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 1,
+                    nav: false
+                  },
+                  1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                  }
+                }
+              })
+            })
+          </script>
+
+</body>
+
+</html>
