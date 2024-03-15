@@ -2,9 +2,9 @@
 
  * jQuery.marquee - scrolling text horizontally
 
- * Date: 20/02/2013
+ * Date: 15/03/2024
 
- * @author Aamir Afridi - aamirafridi(at)gmail(dot)com | http://aamirafridi.com/jquery/jquery-marquee-plugin
+ * @author suman kumar - aamirafridi(at)gmail(dot)com | http://aamirafridi.com/jquery/jquery-marquee-plugin
 
  */
 
